@@ -1,0 +1,25 @@
+:root {
+  --color-primary:    #2563EB;
+  --color-text:       #1E293B;
+  --color-bg:         #F8FAFC;
+  --color-border:     #E2E8F0;
+  --color-success:    #16A34A;
+
+  --font-heading: 'Poppins', sans-serif;
+  --font-body:    'Inter', sans-serif;
+
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.25rem;
+  --text-xl:   1.5rem;
+  --text-2xl:  2rem;
+  --text-3xl:  3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #F9FAFB;
+    --color-bg:   #111827;
+    --color-border: #374151;
+  }
+}
